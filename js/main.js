@@ -1134,7 +1134,7 @@ class PainterroProc {
 
       this.loadImage(openImage, originalMime);
     } else if (openImage !== false) {
-      this.clear();
+      //this.clear();
     }
     this.attachEventHandlers();
     return this;
